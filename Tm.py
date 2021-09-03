@@ -158,3 +158,15 @@ numeroDias = int(input('Digite el numero de dias: '))
 totalPago= peliculasAlquiladas * numeroDias * 1500
 print (f'El valor a pagar es de : ${totalPago}')
 
+"""
+13. Una Agencia de viajes cobra por un Tour a Cartagena $25.000
+diarios por persona. Realice un algoritmo que determine el monto a
+pagar por una familia que desee realizar dicho Tour sabiendo que
+también cobran el 12% de IVA.
+"""
+numeroPersonas = int (input ('Digite el numero de personas : '))
+pago = 25000 * numeroPersonas
+interes = pago * 0.12
+totalPago = pago + interes
+print (f'El total del pago es de ${totalPago} ')
+
