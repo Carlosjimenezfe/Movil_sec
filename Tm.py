@@ -50,3 +50,25 @@ saldoInicial = float (input('Digite el saldo inicial : $ '))
 interes = saldoInicial * 0.015
 saldoFinal = saldoInicial + interes
 print(f'El saldo final es de : ${saldoFinal} ')
+
+"""
+5. Una empresa le hace los siguientes descuentos sobre el sueldo base
+a sus trabajadores: 1% por ley de politica pública, 4% por seguro
+social, 0.5% por seguro forzoso y 5% por caja de ahorro. Realice un
+algoritmo que determine el monto de cada descuento y el monto total
+a pagar al trabajador.
+"""
+
+sueldoBase = float (input('Digite el sueldo base $ '))
+politicaPublica = sueldoBase * 0.01
+seguroSocial = sueldoBase * 0.04
+seguroForzoso = sueldoBase * 0.005
+cajaAhorro = sueldoBase * 0.05
+totalDescuento = politicaPublica + seguroSocial + seguroForzoso + cajaAhorro
+montoPagar = sueldoBase - totalDescuento
+print (f'Descuento por ley de politica publica  : ${politicaPublica} ')
+print (f'Descuento por seguro social :  ${seguroSocial} ')
+print (f'Descuento por seguro forzoso : ${seguroForzoso} ')
+print (f'Descuento por caja de ahorro : ${cajaAhorro} ')
+print (f'Monto total a pagar es de : ${montoPagar}')
+
