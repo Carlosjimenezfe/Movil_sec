@@ -146,3 +146,15 @@ print (f'La cantidad que recibira el area de ginecologia es de : ${ginecologia} 
 print (f'La cantidad de dinero que recibira el area de traumatologia es de : ${traumatologia} ')
 print (f'La cantidad de dinero que recibira el area de pediatria es de : ${pediatria} ')
 
+"""
+12. Una video tienda alquila DVD a $1.500 el día. Tiene una promoción
+que consiste en dejar gratis el alquiler de una película. Realice un
+algoritmo que teniendo como dato de entrada el total de películas
+alquiladas, y el número de días de alquiler, determine el monto a
+pagar.
+"""
+peliculasAlquiladas = int(input('Digite el numero de peliculas : '))
+numeroDias = int(input('Digite el numero de dias: '))
+totalPago= peliculasAlquiladas * numeroDias * 1500
+print (f'El valor a pagar es de : ${totalPago}')
+
