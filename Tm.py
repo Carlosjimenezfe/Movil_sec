@@ -23,3 +23,20 @@ Num. Pulsaciones = (200 – edad) /10.
 edad = int (input ('Digite la edad : '))
 numeroPulsaciones = (200 - edad)/10
 print(f'El numero de pulsacion son : {numeroPulsaciones}')
+
+"""
+3. Tres personas deciden invertir su dinero para fundar una empresa.
+Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje
+que cada quien invierte con respecto a la cantidad total invertida.
+"""
+
+inversorUno = float (input('Digite la cantidad invertida : $ '))
+inversorDos = float (input('Digite la cantidad invertida : $ '))
+inversorTres = float (input('Digite la cantidad invertida : $ '))
+total = inversorUno + inversorDos + inversorTres
+porInversorUno = (inversorUno / total) * 100
+porInversorDos = (inversorDos / total) * 100
+porInversorTres = (inversorTres / total) * 100
+print(f'El procentaje invertido por el inversor uno es {porInversorUno}% ')
+print(f'El procentaje invertido por el inversor uno es {porInversorDos}% ')
+print(f'El procentaje invertido por el inversor uno es {porInversorTres}% ')
