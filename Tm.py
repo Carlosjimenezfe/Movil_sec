@@ -133,4 +133,16 @@ adicionIvan = cadaFoto * 0.16
 totalPago = cadaFoto + adicionIvan
 print(f'El valor a pagar es de : ${totalPago} ')
 
+"""
+11. En un hospital existen tres áreas: Ginecología, Pediatría y
+Traumatología. El presupuesto anual del hospital se reparte
+conforme a la siguiente tabla:
+"""
+presupuestoAnual = float (input('Digite el presupuesto anual : $ '))
+ginecologia = presupuestoAnual * 0.40
+traumatologia = presupuestoAnual * 0.30
+pediatria = presupuestoAnual * 0.30
+print (f'La cantidad que recibira el area de ginecologia es de : ${ginecologia} ')
+print (f'La cantidad de dinero que recibira el area de traumatologia es de : ${traumatologia} ')
+print (f'La cantidad de dinero que recibira el area de pediatria es de : ${pediatria} ')
 
