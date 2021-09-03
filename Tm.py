@@ -110,5 +110,16 @@ interes = pago * 0.05
 totalPago = pago - interes
 print(f'El valor a pagar al profesor es de : ${totalPago: ,}')
 
+"""
+9. Un centro de comunicaciones alquilan tarjetas para realizar llamadas
+y cobran el monto consumido de la tarjeta mas un recargo del 20%.
+Teniendo como dato de entrada el monto inicial y el monto final de la
+tarjeta, determine el costo de la llamada.
+"""
+montoInicial = float (input ('Digite el monto inicial : $ '))   
+montoFinal = float (input ('Digite el monto final : $ ')) 
+montoPagar = (montoInicial - montoFinal)/0.20
+print (f'El monto a pagar es de : ${montoPagar}')              
+
 
 
