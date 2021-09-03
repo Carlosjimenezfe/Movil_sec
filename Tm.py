@@ -121,5 +121,16 @@ montoFinal = float (input ('Digite el monto final : $ '))
 montoPagar = (montoInicial - montoFinal)/0.20
 print (f'El monto a pagar es de : ${montoPagar}')              
 
+"""
+10. En una fototienda cobran por el revelado de un rollo $1.500 por cada
+foto. Realice un algoritmo que determine el monto a pagar por un
+revelado completo sabiendo que adiconalmente le cobran el IVA
+(16%).
+"""
+numeroFoto= int(input('Digite el numero de fotos : '))
+cadaFoto = 1500 * numeroFoto
+adicionIvan = cadaFoto * 0.16
+totalPago = cadaFoto + adicionIvan
+print(f'El valor a pagar es de : ${totalPago} ')
 
 
