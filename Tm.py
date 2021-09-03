@@ -40,3 +40,13 @@ porInversorTres = (inversorTres / total) * 100
 print(f'El procentaje invertido por el inversor uno es {porInversorUno}% ')
 print(f'El procentaje invertido por el inversor uno es {porInversorDos}% ')
 print(f'El procentaje invertido por el inversor uno es {porInversorTres}% ')
+
+"""
+4. Un banco da a sus ahorradores un interes de 1.5% sobre el monto
+ahorrado. Teniendo como dato de entrada el saldo inicial del
+ahorrador determine el saldo final.
+"""
+saldoInicial = float (input('Digite el saldo inicial : $ '))
+interes = saldoInicial * 0.015
+saldoFinal = saldoInicial + interes
+print(f'El saldo final es de : ${saldoFinal} ')
