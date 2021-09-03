@@ -98,3 +98,17 @@ a pagar a un trabajador que tiene varios años en la empresa.
 añoLaborando = int (input ('Digite el numero de años laborando en la empresa : '))
 montoBono = añoLaborando * 120000 - 20000
 print (f'El monto del bono es de : ${montoBono} ')
+
+"""
+8. Una Universidad le paga a sus profesores $20.000 la hora y le hace
+un descuento del 5% por concepto de caja de ahorro. Determine el
+monto del descuento y el monto total a pagar al profesor.
+"""
+cantidadHora = int (input ('Digite la cantidad de horas : '))
+pago = 20000 * cantidadHora
+interes = pago * 0.05
+totalPago = pago - interes
+print(f'El valor a pagar al profesor es de : ${totalPago: ,}')
+
+
+
