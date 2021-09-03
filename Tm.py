@@ -179,3 +179,22 @@ total a pagar por la habitación si la estadía fue de varios días.
 numeroDias = int(input('Digite el numero de dias: '))
 totalPagar = numeroDias * 200000 - 100000
 print(f'El valor a pagar es de : ${totalPagar}')
+
+"""
+15. El banco del Pueblo da microcréditos a empresarios para ser
+cancelados en un lapso de 2 años (24 meses). Al monto del
+préstamo se le cobra un interés del 24%. El empresario debe pagar
+la mitad del préstamo en 4 cuotas especiales y la otra mitad en 20
+cuotas ordinarias. Realice un algoritmo que teniendo como dato de
+entrada el monto del préstamo, determine el monto total a pagar por
+el préstamo, el monto de las cuotas especiales y el monto de las
+cuotas ordinarias.
+"""
+montoPrestamo = float (input ('Digite el monto a prestar : $ '))
+interes = montoPrestamo * 0.24
+totalPrestamo=interes+montoPrestamo
+cuotaEspecial = (totalPrestamo/2)/4
+cuotaOrdinaria = (totalPrestamo/2)/20 
+print (f'El monto total a pagar es de  : ${totalPrestamo} ')
+print(f'El monto de cuota especial a pagar es de : ${cuotaEspecial} ')
+print (f'El monto de la cuota ordinaria es de: ${cuotaOrdinaria}')
