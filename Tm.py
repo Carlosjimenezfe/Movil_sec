@@ -89,3 +89,12 @@ costoColor = numeroColores * 25000
 totalPagar = costoPalabra + costoCentimentro + costoColor
 print (f'El costo total a pagar es de : ${totalPagar} ')
 
+"""
+7. Una empresa paga a sus empleados un bono por antigüedad que
+consiste en $100.000 por el primer año laboral y $120.000 por cada
+año siguiente. Realice un algoritmo que determine el monto del bono
+a pagar a un trabajador que tiene varios años en la empresa.
+"""
+añoLaborando = int (input ('Digite el numero de años laborando en la empresa : '))
+montoBono = añoLaborando * 120000 - 20000
+print (f'El monto del bono es de : ${montoBono} ')
