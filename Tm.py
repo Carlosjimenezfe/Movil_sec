@@ -170,3 +170,12 @@ interes = pago * 0.12
 totalPago = pago + interes
 print (f'El total del pago es de ${totalPago} ')
 
+"""
+14. Un Hotel 5 Estrellas de Santa Marta tiene una promoción para sus
+clientes. Cobra por una habitación $100.000 el primer día y por el
+resto $200.000 por día. Realice un algoritmo que determine el valor
+total a pagar por la habitación si la estadía fue de varios días.
+"""
+numeroDias = int(input('Digite el numero de dias: '))
+totalPagar = numeroDias * 200000 - 100000
+print(f'El valor a pagar es de : ${totalPagar}')
